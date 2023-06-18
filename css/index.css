@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+}
+
+@media only screen and (max-width: 1039px){
+    .img { display: none; 
+    }
+    div#container {
+        display: none;
+    }
+}
+
+header {
+    padding: 10px 1%;
+    padding-bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b1d24;
+    background-image: linear-gradient(to top,#ffffff23,#192627, #1a2125c2, #0b1d24);
+    color: white;
+    /* width: 100vw; */
+    min-width: 391px;
+}
+
+
+nav {
+    display:flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+header > nav > li {
+    display: inline-block;
+    padding: 0.8% 1%;
+    border-radius: 10px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+
+}
+header > nav > li:hover {
+    background-color: #a4acb18e;
+}
+
+header > h1 {
+    text-align: left;
+    padding: 0.6%;
+}
+
+header > nav {
+    font-weight: bold;
+}
+header > nav > button {
+    position: absolute;
+    right: 1px;
+    background-color: white;
+    font-weight: bold;
+    padding: 0.4%;
+    width: 20%;
+    max-width: 150px;
+    border-radius: 10px;
+    border-color: white;
+    border: 2px solid silver;
+    min-width: auto;
+}
+main {
+    width: 80vw;
+    margin: auto;
+}
+
+section {
+    background-color: #FAF8D4;
+    min-width: 391px;
+    min-height: 391px;
+    width: 40%;
+    height: 30vw;
+    border-radius: 20px;
+    margin: 4px;
+    padding: 1%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    align-items: center;
+
+    box-shadow: 5px 7px 37px rgba(0, 0, 0, 0.507);
+
+    text-shadow: 1px 1px 1px #0306071e;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section > h2 {
+    text-align: center;
+    margin: auto;
+    font-weight: normal;
+    font-family: 'Black Han Sans';
+}
+
+section, div.img {
+    min-width: 391px;
+    min-height: 391px;
+    width: 40%;
+    height: 30vw;
+    border-radius: 20px;
+    margin: 4px;
+    padding: 1%;
+    align-items: center;
+}
+
+/* div.img {
+    background-color: #2c3438;
+
+} */
+
+div#conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+#container img {
+    position: absolute;
+    transition: transform 0.5s ease-out;
+    width: 110%;
+    /* height: 70%; */
+}
+
+.slide-out {
+transform: translateX(100%);
+}
+
+.slide-in {
+transform: translateX(0);
+}
+
+li {
+    cursor: pointer;
+}
+#para_que_serve {
+    box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.589);
+    border-radius: 20px;
+    resize: 10px;
+}
+
+
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: tomato;
+}
