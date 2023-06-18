@@ -58,11 +58,7 @@ header > nav {
     font-weight: bold;
 }
 header > nav > a {
-    position: absolute;
-    right: 1px;
-    width: 20%;
-    max-width: 150px;
-    min-width: auto;
+    width: 1vw;
 }
 header > nav > a > button {
     cursor: pointer;
