@@ -13,7 +13,6 @@ header {
     background-color: #0b1d24;
     background-image: linear-gradient(to top,#ffffff23,#192627, #1a2125c2, #0b1d24);
     color: white;
-    /* width: 100vw; */
     min-width: 391px;
 }
 
@@ -154,6 +153,8 @@ img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 20px;
+    /* box-shadow: 5px 7px 37px rgba(0, 0, 0, 0.507); */
+    box-shadow: 20px 12px 20px 2px rgb(0 0 0 / 24%);
 }
 
 #my_contact {
@@ -161,6 +162,7 @@ img {
     display: flex;
     align-content: center;
     flex-direction: column;
+    box-shadow: 20px 12px 20px 2px rgb(0 0 0 / 24%);
 }
 
 #my_contact > img {
