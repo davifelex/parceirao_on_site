@@ -32,6 +32,12 @@ var customer_management = document.getElementById('customer_management');
 var redelivery_management = document.getElementById('redelivery_management');
 var report_generator = document.getElementById('report_generator');
 
+var section_functions = document.getElementById('functions')
+
+section_functions.addEventListener("mouseleave", function(){
+  trocarImagem('img/parceirao_icon.png')
+});
+
 manage_drivers.addEventListener('mouseover', function() {
   trocarImagem('img/motoristas.webp');
 });
